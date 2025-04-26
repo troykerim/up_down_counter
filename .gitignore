@@ -1,0 +1,55 @@
+# Vivado cache, hardware runs, and generated files
+hardware/up_down_counter/*.cache/
+hardware/up_down_counter/*.hw/
+hardware/up_down_counter/*.runs/
+hardware/up_down_counter/*.sim/
+hardware/up_down_counter/*.ip_user_files/
+hardware/up_down_counter/*.webtalk/
+hardware/up_down_counter/*.Xil/
+hardware/up_down_counter/*.srcs/
+
+# Common Vivado output files (Found on github)
+*.jou
+*.log
+*.str
+*.bin
+*.pb
+*.dcp
+*.rpt
+*.html
+*.ltx
+*.xpr
+*.xsr
+*.wdb
+*.xml
+*.prj
+*.sdb
+*.vdb
+*.db
+*.mem
+*.svtype
+*.type
+*.rtti
+*.dbg
+*.ini
+*.wcfg
+*.sh
+*.bat
+**/.Xil/
+**/vivado*
+**/runme.*
+*.DS_Store
+*.vscode/
+
+# Files and folders to keep
+!.gitignore
+!hardware/constraints/zyboZ7.xdc
+!hardware/src/DeBounce.vhd
+!hardware/src/ssd_driver.v
+!hardware/src/updown_top.v
+!hardware/sim/updown_top_tb.v
+!dice_roller.tcl
+# Ignore this unused file 
+/hardware/src/DeBounce.v  
+
+
